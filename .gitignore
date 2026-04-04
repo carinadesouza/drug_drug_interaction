@@ -1,0 +1,6 @@
+.venv
+*.xml
+.Ds_Store
+*.npy
+*.pkl
+*.npz
