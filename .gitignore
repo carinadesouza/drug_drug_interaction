@@ -3,4 +3,4 @@
 .Ds_Store
 *.npy
 *.pkl
-*.npz
+*.npzdata/processed/
