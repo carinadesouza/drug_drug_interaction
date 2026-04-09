@@ -1,0 +1,3 @@
+corpus_source,total_pairs,interactions,unique_files,mean_sent_len,interaction_rate_pct
+DrugBank,31876,4673,705,35.3,14.7
+MedLine,2573,327,180,28.5,12.7

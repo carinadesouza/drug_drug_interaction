@@ -1,0 +1,6 @@
+interaction_type,train_count,test_count,total_count,total_pct,mean_sentence_len,negation_rate_pct
+false,23771,5678,29449,85.49,36.0,21.27
+effect,1687,360,2047,5.94,25.5,7.38
+mechanism,1319,302,1621,4.71,29.1,8.39
+advise,826,221,1047,3.04,27.0,29.89
+int,189,96,285,0.83,35.9,3.16
