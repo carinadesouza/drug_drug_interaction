@@ -1,0 +1,6 @@
+model_a,model_b,p_value,significant
+SciBERT,Linear SVM,3.340360263271159e-115,True
+Linear SVM,Rule-based,0.0,True
+BioBERT,PubMedBERT,1.61665423665901e-42,True
+BioBERT,SciBERT,4.070659563672096e-47,True
+PubMedBERT,SciBERT,0.3971011458262511,False
