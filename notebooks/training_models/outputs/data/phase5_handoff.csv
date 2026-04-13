@@ -1,0 +1,2 @@
+best_classical_model,best_classical_macro_f1,rule_based_macro_f1,ml_improvement,benchmark_target,benchmark_achieved,features_used,training_samples,test_samples
+Linear SVM,0.5459,0.1995,0.3464,0.6,False,5024 (5000 TF-IDF + 24 handcrafted),25802,6657
