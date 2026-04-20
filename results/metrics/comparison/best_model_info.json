@@ -1,0 +1,10 @@
+{
+  "best_model": "SciBERT",
+  "best_transformer": "SciBERT",
+  "best_classical": "Linear SVM",
+  "trans_available": [
+    "BioBERT",
+    "PubMedBERT",
+    "SciBERT"
+  ]
+}
