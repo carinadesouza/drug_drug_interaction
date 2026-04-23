@@ -1,6 +1,6 @@
 test_label,model_a,model_b,f1_a,f1_b,delta_f1,p_value,significant
-Best Transformer vs Best Classical,PubMedBERT,Linear SVM,0.7222,0.5459,0.1763,0.0,True
-Best Classical vs Rule-based,Linear SVM,Rule-based,0.5459,0.1995,0.3464,0.0,True
-BioBERT vs PubMedBERT,BioBERT,PubMedBERT,0.6779,0.7222,-0.0443,0.0,True
-BioBERT vs SciBERT,BioBERT,SciBERT,0.6779,0.7209,-0.043,0.0,True
-PubMedBERT vs SciBERT,PubMedBERT,SciBERT,0.7222,0.7209,0.0013,0.004132,True
+Best Transformer vs Best Classical,PubMedBERT,Linear SVM,0.713,0.5452,0.1678,0.0,True
+Best Classical vs Rule-based,Linear SVM,Rule-based,0.5452,0.1995,0.3457,0.0,True
+BioBERT vs PubMedBERT,BioBERT,PubMedBERT,0.6805,0.713,-0.0325,0.0,True
+BioBERT vs SciBERT,BioBERT,SciBERT,0.6805,0.7057,-0.0252,3e-06,True
+PubMedBERT vs SciBERT,PubMedBERT,SciBERT,0.713,0.7057,0.0072,0.032838,True

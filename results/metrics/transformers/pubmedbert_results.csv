@@ -1,2 +1,2 @@
 model,accuracy,macro_f1,bal_acc,mcc,kappa,wtd_f1,false_f1,effect_f1,mechanism_f1,advise_f1,int_f1
-PubMedBERT,0.9208,0.7222,0.737,0.7147,0.7138,0.9217,0.9594,0.7282,0.7099,0.7621,0.4512
+PubMedBERT,0.9157,0.713,0.7403,0.7037,0.7018,0.9184,0.9565,0.6892,0.7275,0.8018,0.3897

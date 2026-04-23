@@ -1,0 +1,29 @@
+# Core Data & Scientific Computing
+numpy
+pandas
+scipy>=1.7,<1.11 
+
+# Visualisation
+matplotlib
+seaborn
+networkx                  
+
+# NLP & Preprocessing
+spacy==3.7.*
+scispacy==0.5.4                                           
+transformers>=4.38,<5.0
+accelerate>=0.27,<2.0
+torch
+torchvision
+torchaudio                     
+
+# Machine Learning
+scikit-learn   
+
+# Statistical Testing
+statsmodels 
+
+# Utilities
+tqdm                         
+jupyter           
+ipykernel          

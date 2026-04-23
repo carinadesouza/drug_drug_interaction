@@ -1,8 +1,8 @@
 error_category,Count,Pct %
-AMB — Ambiguous drug class,169,32.1
-NOI — Corpus noise (false → interaction),131,24.9
-DNG — Dangerous miss (interaction → false),128,24.3
-GEN — Generic interaction language,41,7.8
-NEG — Negation reversal,36,6.8
-OTH — Other,16,3.0
+AMB — Ambiguous drug class,203,36.2
+NOI — Corpus noise (false → interaction),158,28.2
+DNG — Dangerous miss (interaction → false),110,19.6
+GEN — Generic interaction language,40,7.1
+NEG — Negation reversal,26,4.6
+OTH — Other,18,3.2
 AMB2 — Mechanism/effect ambiguity,6,1.1

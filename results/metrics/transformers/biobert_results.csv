@@ -1,2 +1,2 @@
 model,accuracy,macro_f1,bal_acc,mcc,kappa,wtd_f1,false_f1,effect_f1,mechanism_f1,advise_f1,int_f1
-BioBERT,0.8951,0.6779,0.7441,0.6622,0.6544,0.9027,0.9444,0.6772,0.6815,0.7422,0.344
+BioBERT,0.8936,0.6805,0.7181,0.6472,0.6415,0.8982,0.9422,0.6377,0.6638,0.7061,0.4526

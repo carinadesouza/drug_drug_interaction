@@ -1,2 +1,2 @@
 model,accuracy,macro_f1,bal_acc,mcc,kappa,wtd_f1,false_f1,effect_f1,mechanism_f1,advise_f1,int_f1
-SciBERT,0.912,0.7209,0.7396,0.6973,0.6939,0.9149,0.9545,0.6747,0.6879,0.7768,0.5106
+SciBERT,0.9091,0.7057,0.7427,0.6827,0.6805,0.9125,0.9527,0.6872,0.6927,0.7505,0.4455
