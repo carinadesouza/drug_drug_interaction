@@ -63,6 +63,7 @@ RESULTS_DIR = PROJECT_ROOT / 'results'
 METRICS_DIR = RESULTS_DIR / 'metrics'
 METRICS_EDA_DIR = METRICS_DIR / 'eda'
 METRICS_BASELINE_DIR = METRICS_DIR / 'baseline'
+TRANSFORMERS_DIR = METRICS_DIR / 'transformers'
 METRICS_COMPARISON_DIR = METRICS_DIR / 'comparison'
 
 PLOTS_DIR = RESULTS_DIR / 'plots'
@@ -79,11 +80,12 @@ EDA_CLASS_SUMMARY_CSV = str(METRICS_EDA_DIR / 'eda_class_summary.csv')
 EDA_SOURCE_SUMMARY_CSV = str(METRICS_EDA_DIR / 'eda_source_summary.csv')
 
 BASELINE_RESULTS_CSV = str(METRICS_BASELINE_DIR / 'results_summary.csv')
-BASELINE_HANDOFF_CSV = str(METRICS_BASELINE_DIR / 'phase5_handoff.csv')
+BASELINE_HANDOFF_CSV = str(METRICS_BASELINE_DIR / 'best_classical_model.csv')
 
-BIOBERT_RESULTS_CSV = str(METRICS_COMPARISON_DIR / 'biobert_results.csv')
-PUBMEDBERT_RESULTS_CSV = str(METRICS_COMPARISON_DIR / 'pubmedbert_results.csv')
-SCIBERT_RESULTS_CSV = str(METRICS_COMPARISON_DIR / 'scibert_results.csv')
+# File paths
+BIOBERT_RESULTS_CSV = str(TRANSFORMERS_DIR / 'biobert_results.csv')
+PUBMEDBERT_RESULTS_CSV = str(TRANSFORMERS_DIR / 'pubmedbert_results.csv')
+SCIBERT_RESULTS_CSV = str(TRANSFORMERS_DIR / 'scibert_results.csv')
 FULL_COMPARISON_CSV = str(METRICS_COMPARISON_DIR / 'full_comparison.csv')
 STATISTICAL_TESTS_CSV = str(METRICS_COMPARISON_DIR / 'statistical_tests.csv')
 
@@ -176,6 +178,7 @@ _dirs_to_create = [
     MODELS_DIR / 'shared',
     METRICS_EDA_DIR,
     METRICS_BASELINE_DIR,
+    TRANSFORMERS_DIR,
     METRICS_COMPARISON_DIR,
     PLOTS_EDA_DIR,
     PLOTS_BASELINE_DIR,
