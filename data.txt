@@ -1,0 +1,44 @@
+Dataset: 
+SemEval-2013 Drug–Drug Interaction (DDI) Corpus
+
+Source:
+https://github.com/isegura/DDICorpus
+
+Description:
+The dataset is a benchmark corpus for drug–drug interaction extraction from biomedical text. It contains sentences from DrugBank documents and MedLine abstracts annotated with drug entities and their interactions.
+
+Format:
+- Provided in XML format
+- Includes:
+  - Sentences
+  - Drug entity annotations
+  - Pairwise interaction annotations
+
+Subsets:
+- Training set (Train/)
+- Test set (Test/)
+
+Interaction Labels:
+- mechanism
+- effect
+- advise
+- int
+- false (no interaction)
+
+Usage:
+The dataset is used in its original XML format and parsed during execution of the notebooks to generate structured CSV files for modelling.
+
+Access Instructions:
+1. Download the dataset from the link above.
+2. Extract the folders
+3. Take the data from inside the DDICorpus folder within DDICorpus-2013 zip 
+4. Place the data in: 
+      data/raw/DDICorpus-2013/
+5. Run the notebooks in the sequential order starting from 01_data_parsing to 08_attentation_and_error_analysis. 
+
+Notes:
+- No additional external data sources are used.
+- Dataset is publicly available for research purposes.
+
+License:
+Refer to the original repository for licensing details.
